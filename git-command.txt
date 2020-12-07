@@ -3,3 +3,4 @@ git rebase add origin git-url (this will integrate local repository with remote 
 git add . (adds all the files for push)
 git add filename (adds specific file)
 git commit -am "added index.html and git commands file"
+git push origin master (to push the code to rempte repository)
