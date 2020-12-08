@@ -1,5 +1,5 @@
 git init (initialize the repository with git)
-git rebase add origin git-url (this will integrate local repository with remote repository)
+git remote add origin git-url (this will integrate local repository with remote repository)
 git add . (adds all the files for push)
 git add filename (adds specific file)
 git commit -am "added index.html and git commands file"
@@ -10,3 +10,4 @@ NOTE: Repeat steps 3/4 to 6 to push new changes
 Creating a feature branch
 ______________________________
 git checkout -b feature/child-branch (any name specific to your ticket)
+
