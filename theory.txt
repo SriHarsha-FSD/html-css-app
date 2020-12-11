@@ -1,0 +1,86 @@
+HTML - Hypertext Markup Language
+    - usd to create webpages
+    - widely used in webpages
+    - Just a markup lang not a prog lang
+
+Doctype - specifies the lang we write on the page
+
+HTML - this tag signals that from here we are going to write html code
+
+HEAD - here we write meta data 
+
+title - title of web page
+
+header tags - <h1> to <h6>
+
+Some of the elements will have no content and no end tag
+
+<hr> - horizontal line with no content and no end tag
+<br> - line break which is an empty element
+
+only content inside the body section will be displayed
+
+Features of HTML
+------------------
+1.Simple and easy to use
+2.Platform independent (windows,mac,unix)
+3.Case insensitive Language
+Note: Write all the tags in lower case for consistency and for better readability
+
+Building Blocks of HTML
+-----------------------
+
+Tags - Surrounds the content and apply the meaning to it, write using < and  > brackets
+
+attribute - provides extra information about the element
+
+<tag attribut-name="attribute-value">
+
+Tags in HTML
+---------------
+1.Heading Tags - <h1>,<h2>...<h6>
+                - <b></b> - bold
+                - <i></i> - italic
+                - <u></u> - underline
+
+2. Meta Tags - Doctype, title, link, meta, style
+
+style -      <style>
+                .website{
+                             color: teal;
+                }
+            </style>
+link -      <link href="./styles.css" rel="stylesheet">
+
+3. Text Tags - <p>,<h1> to <h6>, <strong><em>
+4. Link tags - <a>
+5. Image and Area - <img><area>
+6. List Tags - <ul><ol><li>
+7. TableTags - table, tr, td, th, thead, tbody
+8. Form tags - <form>, <input>, <textarea>, <select>
+9. Script tags - Script and no-script
+
+HTML Text Tags
+---------------
+<b> - bold
+<i> - italic
+<u> - underline
+<strong> - same as bold
+<em> - same as italic
+<mark> - to hihlight text
+<code> - defines a fragment of computer code
+<small> - defines smaller text. e.g., copyright or other side comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
