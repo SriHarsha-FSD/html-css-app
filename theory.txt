@@ -1,9 +1,9 @@
 HTML - Hypertext Markup Language
-    - usd to create webpages
+    - used to create webpages
     - widely used in webpages
-    - Just a markup lang not a prog lang
+    - Just a markup language not a prog language
 
-Doctype - specifies the lang we write on the page
+Doctype - specifies the language we write on the page
 
 HTML - this tag signals that from here we are going to write html code
 
@@ -62,15 +62,152 @@ link -      <link href="./styles.css" rel="stylesheet">
 
 HTML Text Tags
 ---------------
-<b> - bold
-<i> - italic
+<b> - bold ~ <strong>
+<i> - italic ~ <cite>
 <u> - underline
 <strong> - same as bold
 <em> - same as italic
 <mark> - to hihlight text
 <code> - defines a fragment of computer code
 <small> - defines smaller text. e.g., copyright or other side comments
+<sup> - superscript
+<sub> - subscript
+<del> - used to identify text that has been deleted from a document but retained to show the history of modification to the document
+<ins> - is used when a text has been inserted into a document
+<cite> - defines title of some creative work - similar to italic
+<q> - quotation
+<abbr> - abbrevation
+<address> - To display Address
+&nbsp; - used to add space
 
+HTML link Tags
+---------------
+<a> - anchor tag, defines a hyperlink which is used to provide link from one page to other page.
+    href - Most important attribute of element
+    target - _blank - opens link in a new tab, _parent, _self, _top
+
+Image Tags
+------------
+<img> - Will help us to display images
+        src - which is source
+        alt - alternate text
+
+List Tags
+----------
+ul - unordered List -> No order is required
+ol - ordered list -> list with S.No     
+
+HTML CSS
+---------
+CSS - Cascading stylesheet to format the layout of our webpage
+    - With css you can control the color, font, size of text, element position, background images and background color
+
+    - can be added to HTML document in 3 ways
+
+    Inline - by using style attribute inside HTML element
+    Internal - by using <style> element in <head> section
+    External - by using <link> element to link external css
+
+Javascript execution engines
+-----------------------------
+Chrome - v8
+IE - Chakra
+Firefox - SpiderMonkey
+
+Margin - space between the page layout and border
+padding the space between the border and the content inside it
+
+Table Tags
+-----------
+<table> - specifies you are writing a table
+<thead> - The thead element represents the block of rows that consist of the column labels (headers) for the parent table element, if the thead element has a parent and it is a table.
+
+<th> - The th element represents a header cell in a table.
+<tr> - The tr element represents a row of cells in a table.
+<td> - The td element represents a data cell in a table
+rowspan - merges the rows
+colspan - merges the coloumns
+
+HTML FORMS
+-----------
+Required when you want to collect some data from the user.
+<form> - used to create HTML form
+
+1. Text input controls - Single
+                        -Password
+                        -Multiline
+2. Checkbox control
+3. Radio Box control
+4. Select Box control
+5. File Select control
+6. Hidden control 
+7. Clickabale button
+8. Submit and reset button
+
+Bootstrap(not in syllabus, just some info)
+------------------------------------------
+-> search for buttons to see the below classes and just explore bootstrap
+class="form-control"
+class="btn btn-primary"
+class="btn btn-success"
+class="btn btn-warning"
+
+Block-level and inline elements
+----------------------------------
+Block level element occupies the entire space of the parent
+
+Every element has default value depending on what type it is
+
+There are two display values: block and inline
+
+Always starts on a new line and takes up the full width available
+
+occupies entire space of the parent
+
+Inline elements
+----------------
+It doesnt start on a new line & only takes up as much width as necessary
+
+Can not add block level elements to inline elements
+
+Block level elements        Inline elements
+-----------------------
+H1 - h6                       <span>
+table                         <a>
+p                             <button>
+div                           <sup>
+form                          <sub>
+video                         <textarea>
+hr                            <label> ~ span
+address                       <b>
+header                        <strong>
+footer                        <img>
+
+span - An inline element used to mark up a part of a text or part of a document
+
+Label: This is 
+
+div -is always used as a container for other elements
+    -defines division or section in HTML document
+    -any sort of content can be put inside <div> tag
+    - this is known as DIVISION tag
+
+Note: you cannot include block level elements inside p 
+
+Converting block level element to inline and vice-versa:
+
+E.g., <label style="display: block;">Value to be displayed: 10</label> - inline to block
+<div style="display: inline;">This is a div turned to inline element</div> - block to inline
+
+HTML DOM (document object model)
+---------------------------------
+When a page is loaded browser creates a DOM of the page
+
+Usage: with HTML DOM javascript can access all the elements of an html document, it gets all the power
+
+Javascript can add,remove,change all the html elements, html attributes, styles in the page
+
+Javascript can react to HTML events and can create new html events in the page
 
 
 

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1>This is form using Bootstrap</h1><br>
+        <form>
+            <!-- class="form-control is from bootstrap" -->
+            <label>First Name:</label><input type="text" name="fname" value="sri harsha" class="form-control"><br><br>
+            Last Name: <input type="text" name="lname" value="" class="form-control"><br><br>
+            Password: <input type="password" name="pwd" class="form-control"><br><br>
+            Comments: <textarea row="5" col="50" name="comments" class="form-control" class="form-control"></textarea><br><br>
+            IsAdmin: <input type="checkbox" name="admin" value="IsAdmin" ><br>
+            IsUser: <input type="checkbox" name="user" value="IsUser" ><br><br>
+            <!-- The name of the radio buttons should be same(called grouping) as below otherwise you can select multiple radio buttons getting selected -->
+            <input type="radio" name="user"> New User
+            <input type="radio" name="user"> Existing User<br><br>
+            <select name="dropdown" class="form-control" ><br><br>
+                <option value="">Select here</option>
+                <!-- selected keyword here will default the option -->
+                <option value="opt1" selected>Opt1</option>
+                <option value="opt2">Opt2</option>
+            </select><br><br>
+            <!-- muliple is used to select multiple options -->
+            <select name="dropdown" multiple class="form-control">
+                <option value="">Select multiple options</option>
+                <!-- selected keyword here will default the option -->
+                <option value="opt1" selected>Opt1</option>
+                <option value="opt2">Opt2</option>
+            </select><br><br>
+            <input type="file" name="upload" accept="image" class="form-control"><br><br>
+            <input type="button" name="updatedata" value="Update Data" class="btn btn-primary" ><br><br>
+            <input type="submit" class="btn btn-success" name="submit" value="submit"><br><br>
+            <input type="reset" class="btn btn-warning" name="reset" value="reset"><br><br>
+            <input type="hidden" name="page" value="100">
+            <!-- 1) hidden element can be checked only by inspecting and not visible on page -->
+        </form>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>

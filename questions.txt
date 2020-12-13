@@ -1,0 +1,4 @@
+1. How to start order list with our own value.
+    Yes, by using start attribute. e.g, <ol type="I" start="2">
+2.resolving conflicts in git
+how row and col attributes work on text area element?

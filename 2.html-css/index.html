@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>HTML using CSS</title>
+        <link href="./style.css" rel="stylesheet">
+        <style>
+            h1{
+                color: yellowgreen;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 300%;
+            }
+            p{
+                color:aqua;
+                font-family:'Courier New', Courier, monospace;
+                font-size: 130%;
+                border: 2px dashed black;
+            }
+
+            .para{
+                border:2px solid black;
+            }
+            .divcls{
+                border:5px dotted purple;
+            }
+            #divid{
+                background-color: gray;
+            }
+            .para-padding{
+                border:2px solid black;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                padding: 60px;
+                width: 100px;
+            }
+            .para-margin{
+                border: 2px solid black;
+                margin: 60px;
+            }
+
+            table, tr, th, td{
+                border: 1px solid black;
+                border-collapse:collapse;
+            }
+            th,td{
+                padding: 10px;
+            }
+            th{
+                text-align:left
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="color: blue;">A blue heading - This is inline styling and priority is given to inline styling than the internal styling!</h1>
+        <p style="color: red;">A red paraghraph</p>
+
+        <div style="color: green;">
+            This is div and content is in green!
+        </div>
+        <h1>This is another header</h1>
+        <p>This is another paragraph </p>
+        
+        <p class="para">This is where we will see class</p>
+        <div class="divcls">
+            This is div with class property
+        </div>
+        <div id="divid">
+            This is div with ID property
+        </div>
+        <div>
+
+            <p class="para-padding">Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="para-margin">Lorem, ipsum dolor.</p>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th colspan="2">Name</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Sree Harsha</td>
+                    <td>Chityala</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Sai Shashank</td>
+                    <td>Chityala</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <th>Name:</th>
+                <td>Elon Musk</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Telephone:</th>
+                <td>1233457</td>
+            </tr>
+            <tr>
+                <td>01234</td>
+            </tr>
+        </table>
+    </body>    
+</html>
